@@ -125,7 +125,6 @@ static BOOL isIdiomPhone;
 		setting setting;
 		setting.opacity = 1;
 		setting.whiteColor = white;
-NSLog(@"RETURN: color=%f op=%f", white, 1.0);
 		return setting;
 	}
 }

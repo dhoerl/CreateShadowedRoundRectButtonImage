@@ -28,6 +28,8 @@
 	// Do any additional setup after loading the view, typically from a nib
 
 	f = [[UITextField alloc] initWithFrame:CGRectMake(0, 200, 200, 22)];
+	
+// Modify these and use Pixie to get screen values
 f.keyboardAppearance = UIKeyboardAppearanceDark;	// UIKeyboardAppearanceDark UIKeyboardAppearanceLight
 //self.view.backgroundColor = [UIColor blackColor];
 	
@@ -62,12 +64,6 @@ f.keyboardAppearance = UIKeyboardAppearanceDark;	// UIKeyboardAppearanceDark UIK
 	assert(i1 && i2 && im1 && im2);
 	im1.image = i1;
 	im2.image = i2;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

@@ -23,6 +23,8 @@
 		DEA98A62181E93A500A273DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A60181E93A500A273DE /* InfoPlist.strings */; };
 		DEA98A64181E93A500A273DE /* CreateShadowedRoundRectButtonImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA98A63181E93A500A273DE /* CreateShadowedRoundRectButtonImageTests.m */; };
 		DEA98A6F181E93E700A273DE /* CreateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA98A6E181E93E700A273DE /* CreateButton.m */; };
+		DEA98A74181F22A600A273DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A72181F22A600A273DE /* LICENSE */; };
+		DEA98A75181F22A600A273DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A73181F22A600A273DE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		DEA98A63181E93A500A273DE /* CreateShadowedRoundRectButtonImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateShadowedRoundRectButtonImageTests.m; sourceTree = "<group>"; };
 		DEA98A6D181E93E700A273DE /* CreateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateButton.h; sourceTree = "<group>"; };
 		DEA98A6E181E93E700A273DE /* CreateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateButton.m; sourceTree = "<group>"; };
+		DEA98A72181F22A600A273DE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DEA98A73181F22A600A273DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		DEA98A29181E93A400A273DE = {
 			isa = PBXGroup;
 			children = (
+				DEA98A73181F22A600A273DE /* README.md */,
+				DEA98A72181F22A600A273DE /* LICENSE */,
 				DEA98A3B181E93A500A273DE /* CreateShadowedRoundRectButtonImage */,
 				DEA98A5D181E93A500A273DE /* CreateShadowedRoundRectButtonImageTests */,
 				DEA98A34181E93A500A273DE /* Frameworks */,
@@ -236,10 +242,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA98A75181F22A600A273DE /* README.md in Resources */,
 				DEA98A4C181E93A500A273DE /* Main_iPad.storyboard in Resources */,
 				DEA98A51181E93A500A273DE /* Images.xcassets in Resources */,
 				DEA98A49181E93A500A273DE /* Main_iPhone.storyboard in Resources */,
 				DEA98A40181E93A500A273DE /* InfoPlist.strings in Resources */,
+				DEA98A74181F22A600A273DE /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +488,7 @@
 				DEA98A69181E93A500A273DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEA98A6A181E93A500A273DE /* Build configuration list for PBXNativeTarget "CreateShadowedRoundRectButtonImageTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +497,7 @@
 				DEA98A6C181E93A500A273DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
