@@ -28,7 +28,13 @@
 	// Do any additional setup after loading the view, typically from a nib
 
 	f = [[UITextField alloc] initWithFrame:CGRectMake(0, 200, 200, 22)];
-	
+
+#if 0 // see for yourself - these have no opacity
+	UIView *av = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 10)];
+	av.backgroundColor = [UIColor redColor];
+	f.inputAccessoryView = av;
+#endif
+
 // Modify these and use Pixie to get screen values
 f.keyboardAppearance = UIKeyboardAppearanceDark;	// UIKeyboardAppearanceDark UIKeyboardAppearanceLight
 //self.view.backgroundColor = [UIColor blackColor];

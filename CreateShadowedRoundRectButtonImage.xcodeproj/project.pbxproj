@@ -25,6 +25,7 @@
 		DEA98A6F181E93E700A273DE /* CreateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA98A6E181E93E700A273DE /* CreateButton.m */; };
 		DEA98A74181F22A600A273DE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A72181F22A600A273DE /* LICENSE */; };
 		DEA98A75181F22A600A273DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A73181F22A600A273DE /* README.md */; };
+		DEA98A77181F497600A273DE /* PrinteMe in Resources */ = {isa = PBXBuildFile; fileRef = DEA98A76181F497600A273DE /* PrinteMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DEA98A6E181E93E700A273DE /* CreateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateButton.m; sourceTree = "<group>"; };
 		DEA98A72181F22A600A273DE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DEA98A73181F22A600A273DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DEA98A76181F497600A273DE /* PrinteMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PrinteMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				DEA98A3E181E93A500A273DE /* InfoPlist.strings */,
 				DEA98A41181E93A500A273DE /* main.m */,
 				DEA98A43181E93A500A273DE /* CreateShadowedRoundRectButtonImage-Prefix.pch */,
+				DEA98A76181F497600A273DE /* PrinteMe */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA98A75181F22A600A273DE /* README.md in Resources */,
+				DEA98A77181F497600A273DE /* PrinteMe in Resources */,
 				DEA98A4C181E93A500A273DE /* Main_iPad.storyboard in Resources */,
 				DEA98A51181E93A500A273DE /* Images.xcassets in Resources */,
 				DEA98A49181E93A500A273DE /* Main_iPhone.storyboard in Resources */,
