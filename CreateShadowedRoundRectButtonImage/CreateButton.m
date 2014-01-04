@@ -79,6 +79,11 @@ static BOOL isIdiomPhone;
 	setting s = type == UIKeyboardAppearanceLight ? whiteKeyboardSettings.keyboardBackSetting : blackKeyboardSettings.keyboardBackSetting;
 	return 	[UIColor colorWithRed:s.whiteColor-.01 green:s.whiteColor blue:s.whiteColor+.01 alpha:s.opacity];
 }
++ (UIColor *)toolbarBackgroundColorForType:(UIKeyboardAppearance)type
+{
+	setting s = type == UIKeyboardAppearanceLight ? whiteKeyboardSettings.keyboardBackSetting : blackKeyboardSettings.keyboardBackSetting;
+	return 	[UIColor colorWithRed:s.whiteColor-.01 green:s.whiteColor blue:s.whiteColor+.01 alpha:.8];
+}
 
 + (settings)defineWithWhiteBackground:(keyboardVariant)white blackBackground:(keyboardVariant)black
 {

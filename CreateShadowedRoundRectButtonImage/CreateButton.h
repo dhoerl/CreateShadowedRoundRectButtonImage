@@ -10,6 +10,7 @@
 @interface CreateButton : NSObject
 
 + (UIColor *)backgroundColorForType:(UIKeyboardAppearance)type;
++ (UIColor *)toolbarBackgroundColorForType:(UIKeyboardAppearance)type;
 
 - (UIImage *)buttonImage:(CGSize)size type:(UIKeyboardAppearance)type;
 - (UIImage *)altButtonImage:(CGSize)size type:(UIKeyboardAppearance)type;
